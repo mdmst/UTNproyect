@@ -1,0 +1,425 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{ 
+    margin: 0;
+    padding: 0;
+    
+}
+
+article{
+    padding-bottom: 2em;
+}
+
+.logo{
+    width: 40vh;
+    padding: 1.5%;
+}
+
+.img-responsive{
+    width: 70%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.container-fluid{
+    width: 100vw;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 141, 148);;
+}
+
+dt{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.dtspecial{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+}
+
+dl{
+    padding-top: 0vh;
+    padding-bottom: 0vh;    
+
+}
+
+dd{
+    padding-top: 0vh;
+    padding-bottom: 0vh;    
+}
+
+
+
+#icon{
+    width: 40vh;
+    padding: 1.5%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 3em;
+}
+
+.mercadolibreicon{
+    height: 1em;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer{
+    width: 90vw;
+    color: white;
+    text-emphasis: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+
+    /*
+    
+    //PROPIEDADES ÚTILES - MACHETE //
+    
+    .img-responsive{
+    width: 70%;
+    padding: 1.5%;
+    text-align: center;
+    clip-path: inset (toma los valores en el sentido horario: top: 0 right: 10% bottom: 0 left: 10%. No hace falta poner las palabras, solo las pongo para sabre qué escribir);
+    
+    */
+
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #00606d;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #15616b;
+    text-shadow: none;
+}
+
+::selection {
+    background: #009fa2, transparent;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+/* ===================
+    ALL: CIAN Theme
+   =================== */
+
+.header-container {
+    border-bottom: 2% solid  #009fa2;
+}
+
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #00babd;
+}
+
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    float: left;
+    margin-bottom: 10px;
+    padding: 1em 0;
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 2em;
+    color: white;
+    background:  #00babd;
+}
+
+
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 1em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: bottom;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+   
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 100vw; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
